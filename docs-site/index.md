@@ -1,12 +1,12 @@
 ---
 layout: home
 title: Sift
-titleTemplate: POE2 Price Check Overlay & Crafting Advisor
+titleTemplate: POE2 price checking, crafting, tracking, and currency tools
 
 hero:
   name: Sift
-  text: POE2 Price Check & Crafting Advisor
-  tagline: Price check while you play. Scan your stash. Craft smarter with probability math.
+  text: POE2 Price Check, Crafting, and Tracking
+  tagline: Price check while you play, scan stash items, plan crafts, track XP and loot, and watch the economy.
   image:
     src: /logo.png
     alt: Sift
@@ -19,16 +19,22 @@ hero:
       link: /crafting/
 
 features:
-  - icon: 🔍
-    title: Price Check
-    details: Instant price checks while you play — hit a hotkey and get live trade data in an overlay.
+  - title: Price Check
+    details: Hover an item, press a hotkey, and get live trade data in an overlay.
     link: /guide/price-check
-  - icon: 📦
-    title: Stash Scanner
-    details: Capture and bulk-price items from your stash tabs in seconds.
+  - title: Stash Scanner
+    details: Capture hovered stash items into a queue, dedupe them, and price them in the background.
     link: /guide/stash-scanner
-  - icon: 🔨
-    title: Crafting Advisor
-    details: Optimal crafting strategies backed by probability math and Monte Carlo simulation.
+  - title: Crafting Advisor
+    details: Pick desired mods or start from a base, then compare expected costs, risks, and budget percentiles.
     link: /crafting/
+  - title: Live Tracking
+    details: Optional memory-backed tracking for XP, deaths, zones, map runs, map modifiers, and inventory currency deltas.
+    link: /guide/live-tracking
+  - title: Currency Tools
+    details: Inspect poe.ninja trends, new-league pulse signals, and arbitrage routes.
+    link: /guide/currency
+  - title: Leveling Checklist
+    details: Track permanent rewards by character, filter by act or reward type, and follow your current zone.
+    link: /guide/leveling
 ---

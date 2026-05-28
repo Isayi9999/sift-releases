@@ -61,11 +61,11 @@ The advisor compares all three and recommends the cheapest.
 
 ### Phase 1: Build Primary Side
 
-Build all 3 desired mods on the primary side. The standard path:
+Build the first valuable T1 mod and enough setup mods to make the item fractureable. The standard Chaos Slam fracture setup:
 
-1. **Transmute** — Convert the Normal base to Magic, targeting the hardest prefix/suffix
-2. **Augment** — Add the 2nd mod to the Magic item
-3. **Regal** — Upgrade to Rare, adding the 3rd mod
+1. **Transmute or Greater Essence** - establish the single T1 mod you want to fracture
+2. **Augment** - add a second setup mod to the Magic item
+3. **Regal or Greater Essence** - upgrade to Rare and reach 3 total mods
 
 At each step, the advisor picks the optimal currency tier (Normal, Greater, or Perfect) based on which gives the lowest expected cost.
 
@@ -75,7 +75,7 @@ If a step misses (wrong mod rolls), the recovery is cheap at this stage — just
 
 ### Phase 2: Desecrate Blocker
 
-After completing the primary side, the advisor recommends desecrating the item:
+After the item has the target T1 plus two setup mods, the advisor recommends desecrating the item:
 
 1. Apply an Abyssal Bone to add a hidden "desecrated" modifier
 2. The desecrated mod takes up a normal prefix or suffix slot
@@ -89,10 +89,10 @@ See [Desecration & Lich Mods](/crafting/desecration) for the full mechanics.
 
 ### Phase 3: Fracture
 
-With 3 desired mods + 1 unrevealed desecration (4 mods total), apply a **Fracturing Orb**:
+With 1 desired T1 + 2 setup mods + 1 unrevealed desecration (4 mods total), apply a **Fracturing Orb**:
 
 - The desecrate can't be fractured, so only 3 mods are candidates
-- **1/3 chance** to lock each desired mod
+- **1/3 chance** to lock the T1 target
 - On success: one mod is permanently protected through all future crafting
 - On failure (wrong mod locked): usually restart from scratch
 
@@ -102,7 +102,9 @@ This is the most pivotal step. After a successful fracture, you have a permanent
 
 ### Phase 4: Build Secondary Side
 
-Now build the other side. The fractured mod (and any other primary mods) are protected. The advisor uses one of these strategies:
+Now annul down to 2 mods: the fractured T1 plus one non-fractured setup mod. The advisor then uses Chaos spam to reroll that non-fractured mod until the second desired T1 lands, then continues building from that two-mod foundation.
+
+The advisor can still use these follow-up strategies when the item needs more mods:
 
 **Erasure Spam** — Use Chaos Orb + Omen of Dextral/Sinistral Erasure. The erasure omen forces the Chaos removal to only affect the secondary side. Your primary side is completely untouched. Spam until the right mods land.
 
